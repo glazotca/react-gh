@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { ReactComponent as Icon } from './logo.svg';
 import './App.scss';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
+          <Icon/>
         </p>
         <a
           className="App-link"
