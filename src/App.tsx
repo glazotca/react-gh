@@ -3,7 +3,10 @@ import logo from './logo.svg';
 import { ReactComponent as Icon } from './logo.svg';
 import './App.scss';
 
+const PASSWORD = process.env.REACT_APP_PASSWORD;
+
 function App() {
+  console.log(PASSWORD)
   return (
     <div className="App">
       <header className="App-header">
